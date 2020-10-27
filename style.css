@@ -1,0 +1,461 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    position: relative;
+}
+#hamburger {
+    display: none;
+    float: right;
+    padding: 16px 0px;
+}
+header {
+    padding: 10px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+header a {
+    font-family: OpenSans-Bold;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 20px;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+}
+header ul {
+    float: right;
+}
+.secDiv {
+    width: 100%;
+    position: relative;
+    font-size: 0;
+}
+.flexVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 636px;
+}
+.flexHoriz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 636px;
+}
+.fs0 {
+    font-size: 0;
+}
+.h{
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.pd100 {
+    padding: 0 300px;
+}
+.bgB {
+    background-color: #5086CC;
+}
+.bgW {
+    background-color: #ffffff;
+}
+.bgLB {
+    background-color: #EDF5FC;
+}
+.bgLP {
+    background-color:#6E67D2;
+}
+.bgP {
+    background-color:#3F334D;
+}
+#mainDiv img {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    width: 450px;
+    max-height: 550px;
+    clip: rect(0px,430px,auto,94px);
+}
+#mainDiv h2 {
+    font-size: 38px;
+    line-height: 44px;
+}
+.fcW {
+    color: white;
+}
+.ffPL {
+    font-family: Prompt-Light;
+    font-weight: 100;
+}
+.ffP {
+    font-family: Prompt;
+}
+p {
+    font-family: OpenSans-Reg;
+    font-size: 12px;
+    line-height: 18px;
+}
+.borderWhite {
+    border: 2px solid white;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: OpenSans-SemiBold;
+    font-size: 24px; 
+    width: 200px;
+    margin-left: 0;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.95;
+}
+.socialIcons:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.arrows:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+#ppl-button:hover {
+    background-color: white;
+    color: #3F334D;
+}
+.buttonLight {
+    background-color: rgba(0, 0, 255, 0);
+    border: 2px solid white;
+    color: white;
+}
+.buttonLight:hover {
+    background-color: rgb(255, 255, 255);
+    color: #5086CC;
+}
+.buttonColor:hover {
+    background-color: #ffff33;
+}
+.buttonColor {
+    background-color: #E6E62E;
+    border: 2px solid #E6E62E;
+}
+input {
+    cursor: pointer;
+}
+a:hover {
+    color: #3F334D;
+}
+.textCont {
+    width: 450px;
+    margin: 200px;
+    display: inline-block;
+}
+#aboutTextDiv {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+#aboutTextDiv h3 {
+    color: #393763;
+    font-weight: lighter;
+    font-size: 48px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+#aboutTextDiv p {
+    line-height: 22px;
+}
+#left {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+#right {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+#circles {
+    display: none;
+}
+#formCont {
+    height: 100%;
+    width: 40%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5%;
+}
+#formCont h3 {
+    color: #393763;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: Prompt-Light;
+}
+#formCont p {
+    line-height: 28px;
+    font-size: 14px;
+    font-family: OpenSans-Reg;
+}
+#formCont label {
+    font-size: 10px;
+    font-family: OpenSans-Bold;
+    display: block;
+}
+#formCont input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 15px 0px;
+    border: none;
+    padding: 20px;
+    font-size: 22px;
+}
+#checkbox {
+    height: 30px;
+    width: 30px !important;
+    border-radius: 5px;
+
+    
+}
+#termsText {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+#sec3Head {
+    font-size: 48px;
+    font-family: Prompt;
+    display: inline-block;
+}
+.textCenter {
+    text-align: center;
+}
+.sec3Sec {
+    padding: 0 25px;
+    flex-grow: 1;
+}
+#footerIcons {
+    padding: 20px 0;
+}
+#footerIcons img {
+    padding: 0 20px;
+}
+#footerNav {
+    text-align: center;
+}
+#footerNav ul {
+    border-top: 0.1px solid #3f334d96;
+    border-bottom: 0.1px solid #3f334d96;
+    width: fit-content;
+    padding: 10px 0;
+    margin: 20px auto;
+}
+#footerNav li {
+    display: inline-block;
+    width: 200px;
+    padding: 20px 0px;
+}
+#footerNav a {
+    text-decoration: none;
+    color: #3F334D;
+    font-family: OpenSans-Reg;
+
+}
+#footerText {
+    color: #3F334D;
+    width: 50%;
+    margin: 0 auto;
+}
+footer {
+    padding: 50px 0;
+}
+#mobileLinks {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: -300px;
+    top: 0;
+    z-index: 2;
+    list-style: none;
+    padding-top: 60px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: none;
+}
+#mobileLinks a {
+    font-size: 20px;
+    font-family: Prompt-Light;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5086CC;
+}
+#mobileLinks li {
+    margin: 20px 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3F334D;
+}
+#xIcon {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+@media only screen and (max-width: 1100px) {
+    #mainDiv img {
+        opacity: 0.4;
+    }
+    .textCont {
+        z-index: 1;
+        width: 80%;
+        margin: 0 10%;
+    }
+    header ul {
+        display: none;
+    }
+    #hamburger {
+        display: inline-block;
+    }
+    #aboutTextDiv {
+        width: 100%;
+    }
+    #formCont {
+        width: 100%;
+        margin: 0;
+    }
+    #formCont div {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    #formCont button {
+        display: block;
+    }
+    #footerNav li {
+        width: 19%;
+    }
+    #footerNav a {
+        font-size: 80%;
+    }
+    #footerNav ul {
+        width: 90%;
+    }
+    #footerText {
+        width: 80%;
+    }
+    #left, #right, #circles {
+        display: inline-block;
+    }
+    #sec3Slide {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 100px;
+    }
+    .sec3Sec {
+        width: 50% !important;
+        box-sizing: border-box;
+        display: inline-block;
+        font-size: 0;
+    }
+    #slide3, #slide4 {
+        display: none;
+    }
+    #aboutTextDiv h3 {
+        margin: 20px;
+        font-size: 38px;
+    }
+    #aboutTextDiv p {
+        font-size: 16px;
+    }
+    #aboutTextDiv {
+        padding: 40px 8%;
+    }
+    #mobileLinks {
+        display: block;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #woman {
+        display: none;
+    }
+    button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #mainDiv {
+        text-align: center;
+    }
+    .textCont {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .textCont h2 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 31px !important;
+        margin-bottom: 80px;
+    }
+    #span2 {
+        font-family: Prompt-Light;
+    }
+    #aboutTextDiv h3 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .textInput {
+        width: 100% !important;
+    }
+    #formCont div {
+        width: 100%;
+        margin: 0;
+    }
+    #termsText {
+        width: 60%;
+        top: 10px;
+    }
+    .sec3Sec {
+        width: 100%;
+        padding: 0;
+    }
+    .pd100 {
+        padding: 0 0px !important;
+    }
+    #cirlcesDiv img {
+        margin: 2px;
+    }
+    #buttonPurpleBit {
+        padding: 40px 60px;
+    }
+    #footerNav li {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 16px;
+    }
+    #footerNav {
+        text-align: center;
+    }
+}

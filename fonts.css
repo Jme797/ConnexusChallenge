@@ -1,0 +1,22 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(Fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: Prompt-Light;
+    src: url(Fonts/Prompt-Thin.ttf);
+}
+@font-face {
+    font-family: Prompt;
+    src: url(Fonts/Prompt-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Reg;
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(Fonts/OpenSans-Semibold.ttf);
+}
+
+    

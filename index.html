@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="fonts.css" />
+    <title>wonderFL</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.svg">
+        <ul id="links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Get in touch</a></li>
+        </ul>
+        <img id="hamburger" src="assets/hamburger.svg" onclick="showMobileLinks()">
+    </header>
+    <div id="mobileLinks" class="bgW">
+        <img id="xIcon" src="assets/x-icon.svg" onclick="closeMobileLinks()" />
+    </div>
+    <div id="mainDiv" class="secDiv flexVert bgB">
+        <img id="woman" src="assets/woman.svg">
+        <div class="textCont fcW">
+            <h2 class="ffPL">Giving you the <span class="ffP"><br>headstart </span><span class="ffP" id="span2">you
+                    need</span>
+            </h2>
+            <p class="mb50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet possimus velit, esse beatae
+                nostrum
+                suscipit dolore ipsum veritatis inventore! Aut, cum totam fuga voluptate nobis cumque. Eaque, corporis!
+                Commodi, quia.</p>
+            <button class="buttonColor">Get Started</button>
+            <button class="buttonLight">Learn More</button>
+        </div>
+    </div>
+    <div class="secDiv">
+        <div id="aboutTextDiv">
+            <h3 class="ffP">What we're about...</h3>
+            <p class="mb50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia deserunt aut voluptatum
+                quia delectus
+            </p>
+            <p class="mb50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vitae est error ut quidem aut
+                inventore
+                voluptates unde deleniti quod! Voluptas libero sapiente possimus ipsam rerum omnis, exercitationem sunt
+                commodi?</p>
+            <button class="bgP fcW">Get started</button>
+        </div>
+        <div class="bgLB" id="formCont">
+            <h3 class="ffP">Signup and win!</h3>
+            <p>Sign up to our newsletter and get 10% off when you open an account with us. Terms and conditions apply.
+            </p>
+            <form>
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="textInput" id="nameInput" required>
+                </div>
+                <div>
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" class="textInput" id="emailInput" required>
+                </div>
+                <div>
+                    <input id="checkbox" type="checkbox" name="terms" required>
+                    <p for="terms" id="termsText">I have read and agree to the <a href="#">privacy policy</a></p>
+                </div>
+                <button class="bgLP fcW" id="submit" type="submit" disabled>Get started</button>
+            </form>
+        </div>
+    </div>
+    <div class="secDiv bgP textCenter fcW">
+        <h1 id="sec3Head">
+            Features & Benefits
+        </h1>
+        <div id="sec3Slide" class="flexHoriz h pd100">
+            <div id="slide1" class="h sec3Sec">
+                <img src="assets/clockIcon.svg" />
+                <p class="subHeader">Slide 1</p>
+                <p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lectus eget
+                    elit semper
+                    faucibus.</p>
+            </div>
+            <div id="slide2" class="h sec3Sec">
+                <img src="assets/clockIcon.svg" />
+                <p class="subHeader">Slide 2</p>
+                <p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lectus eget
+                    elit semper
+                    faucibus.</p>
+            </div>
+            <div id="slide3" class="h sec3Sec">
+                <img src="assets/clockIcon.svg" />
+                <p class="subHeader">Slide 3</p>
+                <p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lectus eget
+                    elit semper
+                    faucibus.</p>
+            </div>
+            <img id="left" class="arrows" src="assets/arrowLeft.svg">
+            <img id="right" class="arrows" src="assets/arrowRight.svg">
+        </div>
+        <div id="cirlcesDiv" class="mb50">
+            <img id="circles" src="assets/cirles.svg">
+        </div>
+        <div id="buttonPurpleBit">
+            <button class="bgP borderWhite fcW mb50" id="ppl-button">Learn More</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="textCenter" id="footerIcons">
+            <img class="socialIcons" src="assets/fbIcon.svg" />
+            <img class="socialIcons" src="assets/ytIcon.svg" />
+            <img class="socialIcons" src="assets/twitter.svg" />
+        </div>
+        <div id="footerNav">
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Get in touch</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+            </ul>
+        </div>
+        <p id="footerText" class="textCenter">Integer consectetur ultrices ligula quis vestibulum. Donec turpis
+            lectus, egestas vitae
+            varius pharetra,
+            tempor a nibh. Nunc dapibus ipsum et quam lobortis, vitae fermentum metus tristique. Morbi mollis, est vel
+            condimentum cursus, nunc purus mollis sapien, sit amet facilisis enim velit vitae dolor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
